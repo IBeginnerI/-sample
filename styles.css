@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(238, 159, 159);
+  }
+  a {
+      color: rgb(0, 0, 0);
+      border: 2px solid rgb(53, 1, 87);
+      padding: 5px;
+  }
+  h1 {
+    color: rgb(12, 10, 20);
+  }
+  p {
+    color: rgb(189, 241, 2);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+  }
+  td {
+    color: rgb(10, 10, 8);
+    border: 2px solid rgb(153, 23, 23);
+    padding: 5px;
+  }
+  li {
+    color: rgb(110, 5, 49);
+  }
+  
