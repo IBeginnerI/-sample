@@ -78,7 +78,6 @@ h2.title {
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     font-family: 'RobotoCondensed';
     color: #FFFFFF;
-    font-family: "Roboto Condensed";
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
@@ -217,9 +216,8 @@ h2.title {
     line-height: 20px;
 }
 .prize {
-    min-height: 604px;
-    background-color: #efefef;
-    padding: 85px 0 75px 0;
+    background: #EFEFEF;
+    padding-bottom: 40px;
 }
 .gift .gift_img {
     display: block;
@@ -228,26 +226,63 @@ h2.title {
 }
 .prize .gift_text {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #252525;
+}
+.date {
+    max-height: 577px;
 }
 .date_img {
     display: block;
     margin: 0 auto;
     padding: 88px 0 44px 0;
 }
-.date_descr .date_text span{
+.date_text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    text-align: center;
     line-height: 30px;
+    text-align: center;
     text-transform: uppercase;
     color: #252525;
+}
+.date_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.date_middle {
+    padding-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+.footer {
+    padding-top: 40px;
+    height: 169px;
+    background: #1A1A1A;
+}
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #888888;
 }
